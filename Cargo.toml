@@ -1,0 +1,12 @@
+[package]
+name = "ice-repro"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chumsky = "0.9.3"
+miette = "5.10.0"
+serde = { version = "1.0.195", features = ["derive"] }
+thiserror = "1.0.56"
